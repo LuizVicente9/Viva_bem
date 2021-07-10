@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    font-family: "Amatic SC", cursiva;
+    margin: 0 ;
+  }
+  .container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+
+  }
+    .Busca-texto {
+        width: 200px;
+        height: 35px;
+        float: center; 
+        background-position: left;
+        background-repeat: no-repeat; 
+        background-color: #5E17EB;
+        border: 2px solid #000;
+        border-radius: 15px;
+        text-indent:25px;
+    }
+  header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+  }
+  main {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h2 {
+    font-size: xx-large;  
+  }
+  nav {
+    margin-right:20px;
+  }
+  .nav-link {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 16px;
+  }
+  .footer {
+    background-color: #FFB03A;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px 30px;
+  }
+  
+  .footer a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+  }
+  
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer .container div:first-of-type {
+    width: 30%;
+  }
+  
+  .contatos {
+    display: flex;
+    flex-direction:column;
+  }
+  .redes {
+    display: inline-block;
+  margin: 0 10px;
+}
+
+  
