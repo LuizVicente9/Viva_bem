@@ -29,9 +29,17 @@ body {
         padding: 10px 20px;
   }
   main {
-    width: 800px;
+    width: auto;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    columns: 6;
+    color: black;
+  }
+  .Receita-da-nutri {
+    margin: 0 auto;
+    width: auto;
   }
   h2 {
     font-size: xx-large;  
@@ -66,6 +74,17 @@ body {
     width: 30%;
   }
   
+  .barra {
+    padding: 10px 10px;
+    text-align: center;
+    background-color: #5E17EB;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    position: sticky;
+    top: 0;
+  }
+
   .contatos {
     display: flex;
   flex-direction: column;
@@ -84,4 +103,29 @@ ul {
   list-style-type: none;
 }
 
+.receita {
+  columns: 2;
+ }
+ 
+.imgReceita {
+    width: 70%;
+    height: 80%;
+    }
+    
+.imgReceita2 {
+  display: block;
   
+}    
+
+.nomeReceita span {
+  display: block;      
+}
+
+.nomeReceita {
+  font-size: 6mm;
+  color: black;    
+}
+
+.span {
+  font-size: 10mm;
+}
