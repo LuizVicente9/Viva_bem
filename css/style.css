@@ -127,5 +127,31 @@ ul {
 }
 
 .span {
-  font-size: 10mm;
+  font-size: 12mm;
+  font-weight: bold;
+}
+.assinatura {
+  margin: 10px;
+}
+
+.tituloassinatura {
+font-size: 12mm;
+font-weight: bold;
+}
+
+.boxviva {
+  font-size: 12mm;
+  color: black;
+  font-weight: bold; 
+  margin: 10px   
+}
+.barra2 {
+  padding: 10px 10px;
+  text-align: center;
+  background-color: #712A7A;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  position: sticky;
+  top: 0;
 }
