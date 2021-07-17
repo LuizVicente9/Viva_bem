@@ -102,6 +102,7 @@ margin: 50px;
   .footer .container {
     display: flex;
     justify-content: space-between;
+    
   }
 
   .footerLink {
@@ -123,6 +124,7 @@ margin: 50px;
     font-weight: 800;
     position: sticky;
     top: 0;
+    
   }
 
   .contatos {
@@ -193,7 +195,10 @@ font-weight: bold;
   text-transform: uppercase;
   font-weight: 800;
   position: sticky;
-  top: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
 }
 .container2 {
   display: flex; 
@@ -201,5 +206,21 @@ font-weight: bold;
   width: 350px;
   flex-direction: row;
   max-width: 1280px;
-    margin: 0 auto;
+  margin: 0 auto;
+}
+
+.botaodeassinatura {
+  background-color: #712A7A;
+  width: 30%;
+  font-family: "Amatic SC", cursiva;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin:auto;
+}
+
+.botaodeassinatura p {
+  background-color: #3c0044;
+    color:#fff;
+    padding: 5px 10px;
 }
