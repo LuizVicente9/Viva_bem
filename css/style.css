@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+
   }
 body {
     font-family: "Amatic SC", cursiva;
@@ -68,8 +69,6 @@ margin: 50px;
  transform: rotate(-5deg);
  }
 
-
-
   .Receita-da-nutri {
     margin: 0 auto;
     width: auto;
@@ -92,6 +91,8 @@ margin: 50px;
     background-color: #FFB03A;
     color: rgb(0, 0, 0);
     padding: 10px 20px 30px;
+    min-width: 500px;
+    max-width: 1480px;
   }
   
   .footer a {
@@ -101,8 +102,12 @@ margin: 50px;
   
   .footer .container {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    justify-items: center;
+    flex-wrap: wrap;
+
   }
 
   .footerLink {
@@ -113,6 +118,11 @@ margin: 50px;
   
   .footer .container div:first-of-type {
     width: 30%;
+  }
+
+  .redes ul li {
+    margin-left: 20px;
+    display: inline-block;
   }
   
   .barra {
@@ -130,6 +140,7 @@ margin: 50px;
   .contatos {
     display: flex;
   flex-direction: column;
+  font-size: 20px;
   }
   .redes {
     display: inline-block;
@@ -176,6 +187,10 @@ ul {
   margin: 10px;
 }
 
+.assinatura2 {
+  font-size: 20px;
+  font-weight: bold;
+}
 .tituloassinatura {
 font-size: 12mm;
 font-weight: bold;
@@ -210,7 +225,6 @@ font-weight: bold;
 }
 
 .botaodeassinatura {
-  background-color: #712A7A;
   width: 30%;
   font-family: "Amatic SC", cursiva;
   font-size: 40px;
@@ -224,3 +238,7 @@ font-weight: bold;
     color:#fff;
     padding: 5px 10px;
 }
+
+   .botaodeassinatura p:hover {
+      transform: rotate(-5deg);
+      }
