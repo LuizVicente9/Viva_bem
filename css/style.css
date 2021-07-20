@@ -125,17 +125,7 @@ margin: 50px;
     display: inline-block;
   }
   
-  .barra {
-    padding: 10px 10px;
-    text-align: center;
-    background-color: #5E17EB;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 800;
-    position: sticky;
-    top: 0;
-    
-  }
+  
 
   .contatos {
     display: flex;
@@ -161,7 +151,7 @@ ul {
  }
  
 .imgReceita {
-    width: 70%;
+    width: 60%;
     height: 80%;
     }
     
@@ -178,6 +168,47 @@ ul {
   font-size: 6mm;
   color: black;    
 }
+
+.categorias ul li {
+  background-color:#5E17EB;
+  color:#fff;
+  float: left;
+  width: 420px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  position: relative;
+  }
+
+  .categorias ul li:hover {
+  background-color:#0c0220fa;
+ 
+  }
+
+  .categorias ul{
+    padding: 0px;
+  }
+  
+  .categorias ul ul{
+    display: none;
+  }
+
+  .categorias ul li:hover > ul {
+    display:block;
+  }
+
+  .categorias ul ul ul {
+    margin-left: 202px;
+    top:0px;
+    position: absolute;
+  }
+
+  .categorias ul ul li:hover {
+  background-color:#38285cfa;
+  
+  }
 
 .span {
   font-size: 12mm;
