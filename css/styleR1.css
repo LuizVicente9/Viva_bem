@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+ }
+
+body {
+    
+    font-family: "Amatic SC", cursiva;
+    margin-left: 7%;
+    margin-right: 7%;
+ }
+ 
+ header {
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+ }
+ #imgPrin{
+     display: flex;
+     float: left;
+ }
+ div.p1{
+    
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 50%;
+    margin-right: 14%;
+    text-align: center;
+    font-size: x-large;
+ }
+ div.p2{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 16%;
+  margin-right: 14%;
+  text-align: center;
+  font-size: x-large;
+ }
+ div.p3{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 16%;
+  margin-right: 14%;
+  text-align: center;
+  font-size: x-large;
+ }
+ div{
+     display: flex;
+     flex-wrap: wrap;
+
+ }
+ #imgI1{
+     float:left;
+     display: block; 
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+ }
+ #imgI2{
+     float: left;
+     display: block; 
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+ }
+
+ h1{
+    text-align: center;
+    margin: 1%;
+    font-size: 700%;
+ }
+ main{
+    width: 800px;
+    margin: 24 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    columns: 9;
+    color: black;   
+ }
+ .footer {
+    background-color: #FFB03A;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px 30px;
+    margin-top: 15px;
+    }
+  
+  .footer a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+  }
+  
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+  } 
+
+  .footerLink {
+      font-size: 6mm;
+      font-weight: bold;
+      display: inline;
+  }
+
+  
+  .contatos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textoContatos {
+    font-size: 6mm;
+    font-weight: bold;
+    color: black;
+  }
+
+  .infoContatos {
+    display: inline-block;
+  }
+
+  .redes {
+  display: inline-block;
+  margin: 0 20px;
+  justify-content: center;
+  align-self: center;
+  
+ }
+
+.icones {
+  display: inline-block;
+  margin: 0 50px;
+ }
+ ul {
+  list-style-type: none;
+}
