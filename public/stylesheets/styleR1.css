@@ -1,138 +1,206 @@
-*{
-    box-sizing: border-box;
- }
-
+* {
+  box-sizing: border-box;
+  flex: 1;
+}
 body {
-    
-    font-family: "Amatic SC", cursiva;
-    margin-left: 7%;
-    margin-right: 7%;
- }
+  font-family: "Amatic SC", cursiva;
+  margin: 0 ;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+  .Busca-texto {
+      width: 200px;
+      height: 35px;
+      float: center; 
+      background-color: #5E17EB;
+      border: 2px solid #000;
+      border-radius: 15px;
+  }
+header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+}
+main {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  columns: 6;
+  color: black;
+}
+
+.dicaTitulo {
+  font-weight: bolder;
+  font-size: 15mm;
+}
+
+.dica {
+  text-align: left;
+  font-size: 6mm;
+  font-weight: bolder;
+
+}
+
+.tituloProdutoDica {
+  font-size: 8mm;
+  font-weight: bolder;
+}
+
+.produtoDica {
+  display: inline-flex;
+  margin: 20px 10px;
  
- header {
-    
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
- }
- #imgPrin{
-     display: flex;
-     float: left;
- }
- div.p1{
-    
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 50%;
-    margin-right: 14%;
-    text-align: center;
-    font-size: x-large;
- }
- div.p2{
-  margin-top: 0%;
-  margin-bottom: 0%;
-  margin-left: 16%;
-  margin-right: 14%;
-  text-align: center;
-  font-size: x-large;
- }
- div.p3{
-  margin-top: 0%;
-  margin-bottom: 0%;
-  margin-left: 16%;
-  margin-right: 14%;
-  text-align: center;
-  font-size: x-large;
- }
- div{
-     display: flex;
-     flex-wrap: wrap;
+}
 
- }
- #imgI1{
-     float:left;
-     display: block; 
-    margin-top:auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
- }
- #imgI2{
-     float: left;
-     display: block; 
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
- }
+.infoProdutoDica span {
+  display: block;
+}   
 
- h1{
-    text-align: center;
-    margin: 1%;
-    font-size: 700%;
- }
- main{
-    width: 800px;
-    margin: 24 auto;
-    text-align: center;
+.receita {
     display: flex;
-    flex-direction: column;
-    columns: 9;
-    color: black;   
- }
- .footer {
-    background-color: #FFB03A;
-    color: rgb(0, 0, 0);
-    padding: 10px 20px 30px;
-    margin-top: 15px;
-    }
-  
-  .footer a {
-    color: rgb(8, 8, 8);
-    text-decoration: none;
-  }
-  
-  .footer .container {
-    display: flex;
-    justify-content: space-between;
-  } 
+    flex: 1;
+    columns: 2;
+   }
+   
+  .imagemReceita {
+      width: 100%;
+      
+      }
 
-  .footerLink {
-      font-size: 6mm;
-      font-weight: bold;
-      display: inline;
+  .fazerReceita{
+      font-size: 8mm;
   }
 
-  
-  .contatos {
-    display: flex;
-    flex-direction: column;
+  .produtos {
+    display: block;
   }
 
-  .textoContatos {
+  .produtoReceita {
+    display: inline-flex;
+  }
+
+  .infoProdutoReceita span {
+    display: block;
+  }    
+
+  .infoProdutoReceita {
     font-size: 6mm;
     font-weight: bold;
+    text-decoration: none;
     color: black;
   }
 
-  .infoContatos {
-    display: inline-block;
+  .ingredientes {
+    flex: 1;
+    margin: 10px;
   }
 
-  .redes {
+.tituloReceita {
+  font-size: 12mm;
+  font-weight: bold;
+}
+
+.passosReceita span {
+    display: block;      
+}
+
+.passosReceita {
+    font-size: 7mm;
+    color: black;    
+}
+
+.nutricionalReceita span {
+    display: block;
+}
+
+.nutricionalReceita {
+  font-size: 7mm;
+}
+
+button {
+    background-color: #24D66B;
+    width: 60%;
+    height: 80px;
+    border: none;
+    font-family: "Amatic SC", cursiva;
+    font-size: 26px;
+    margin-top: 100px;
+    margin-bottom: 140px;
+}
+
+ h2 {
+  font-size: xx-large;  
+}
+nav {
+  margin-right:20px;
+}
+.nav-link {
+  font-weight: bold;
+  font-size: 8mm;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 16px;
+}
+.footer {
+  background-color: #FFB03A;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px 30px;
+  margin-top: 15px;
+  }
+
+.footer a {
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+} 
+
+.footerLink {
+    font-size: 6mm;
+    font-weight: bold;
+    display: inline;
+}
+
+
+.contatos {
+  display: flex;
+  flex-direction: column;
+}
+
+.textoContatos {
+  font-size: 6mm;
+  font-weight: bold;
+  color: black;
+}
+
+.infoContatos {
   display: inline-block;
-  margin: 0 20px;
-  justify-content: center;
-  align-self: center;
-  
- }
+}
+
+.redes {
+display: inline-block;
+margin: 0 20px;
+justify-content: center;
+align-self: center;
+
+}
 
 .icones {
-  display: inline-block;
-  margin: 0 50px;
- }
- ul {
-  list-style-type: none;
+display: inline-block;
+margin: 0 50px;
+}
+ul {
+list-style-type: none;
 }

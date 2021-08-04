@@ -4,90 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styleR1.css">
+    <link rel="stylesheet" href="../public/stylesheets/styleR1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     <title>Viva Bem</title>
 </head>
 <body>
-  <header class="container">
-    <img src="./Viva_Bem/generator/public/stylesheets/imagens/logo viva1.jpg" alt="Logo">
-    <form action="">
-            <input class="Busca-texto" type="text">
-        </form>
-    <nav>
-      <a class="nav-link" href="">Login</a>
-    </nav>
-    <a href="./Carrinho.html">
-    <img src="./img/vista-lateral-vazia-do-carrinho-de-compras.png" width="40" alt="Carrinho"></a>
-  </header>
-<h1>Smoothie de Mirtilo
-  <img src="./img/smoothie de mirtilo 2.png" width="420" alt="smoothieM" id="imgPrin">
-  
-</h1>
-<div class="p1">Usando um processador de alimentos ou um liquidificador de alta velocidade, adicione todos os ingredientes da lista e bata até que a mistura fique homogênea e sirva.</div>
-
-
-<img src="./img/caixa de mirtilo 1.png" width="160" alt="caixaMirtilo" id="imgI1">
-<img src="./img/stevita 1.png" width="160" alt="stevita" id="imgI2">
-
-<div class="p2">
-  <h3>Ingredientes PARA 1 PORÇÃO</h3>
-  
-  1 xícara (240g) de leite de amêndoa sem açúcar.
-  60g de queijo cremoso.
-  1/2 xícara (50g) de mirtilos.
-  2 colheres de sopa de creme de leite.
-  1 colher de chá de canela em pó.
-  1/2 colher de chá de extrato de baunilha.
-  6 gotas de estévia líquida.</div>
-<div class="p3">Nutrição
-  :
-  Calorias: 311
-  Gordura: 27g
-  Carboidratos: 9g
-  Fibra: 2,5g
-  Proteína: 5,5g</div>
-    
-    <button ADICIONAR AO CARRINHO> ADICIONAR AO CARRRINHO</button>
-  <footer>
-    <footer class="footer">
-        <div class="container">  
+    <header class="container">
+        <img src="../public/img/logo-viva-bem.jpeg" width="120" alt="Logo">
+        <form action="">
+                <input class="Busca-texto" type="text">
+            </form>
+        <nav>
+          <a class="nav-link" href="">Login</a>
+        </nav>
+        <a href="./Carrinho.html">
+        <img src="../public/img/vista-lateral-vazia-do-carrinho-de-compras.png" width="40" alt="Carrinho"></a>
+      </header>  
+      <main>
+          <section class="receita">
           <div>
-            <a href="#" class="footerLink">Quem somos</a>
+              <img class="imagemReceita" src="../public/img/smoothie de mirtilo 2.png" alt="smoothieMirtilo">
+              <p class="fazerReceita">Usando um processador de alimentos ou um liquidificador de alta velocidade, adicione todos os ingredientes da lista e bata até que a mistura fique homogênea e sirva.</p>
+              <div class="produtos">
+                <a href="#" class="produtoReceita">
+                <img src="../public/img/caixa de mirtilo 1.png" width="80"  alt="caixa de mirtilo">
+                  <div class="infoProdutoReceita">
+                    <span>Caixa de mirtilo (100g)</span>
+                    <span>R$: 34,90</span>
+                  </div>
+                </a>  
+                <br>
+                <a href="#" class="produtoReceita">
+                  <img src="../public/img/stevita 1.png" width="80" alt="stevita">
+                  <div class="infoProdutoReceita">
+                    <span>Stevita 30ml</span>
+                    <span>R$: 9,99</span>
+                  </div>
+                </a> 
+                <br>
+                 
+              </div>
           </div>
+          <div class="ingredientes">
+            <p class="tituloReceita">Smoothie de mirtilo</p>
+            <p class="passosReceita"><span> Ingredientes para uma porção:</span>
+                <span>1 xícara (240g) de leite de amêndoa sem açúcar.</span> 
+                <span>60g de queijo cremoso.</span>
+                <span>1/2 xícara (50g) de mirtilos.</span>
+                <span>2 colheres de sopa de creme de leite.</span>
+                <span>1 colher de chá de canela em pó.</span>
+                <span>1/2 colher de chá de extrato de baunilha.</span>
+                <span>6 gotas de estévia líquida.</span> 
+            </p>
+            <p class="nutricionalReceita">Nutrição:
+                <span>Calorias: 311</span>
+                <span>Gordura: 27g
+                </span>
+                <span>Carboidratos: 9g
+                </span>
+                <span>Fibra: 2,5g
+                </span>
+                <span>Proteína: 5,5g</span>
+            </p>
+            <button>Adicionar ao carrinho</button>
+            </div>
+        </section>
           
-          <div class="redes">
-              <section id="textoRedes"><h2>Acompanhe-nos nas redes sociais</h2></section>
-            
-            <a target="_blank"
-            href="https://www.facebook.com/vivabem/">
-            <img src="./img/facebook.png"  width="50" alt="facebook"> </a>
-            <a target="_blank"
-            href="https://www.instagram.com/vivabem/">
-            <img src="./img/instagram.png" width="50" alt="instagram"> </a>
-            <a target="_blank"
-            href="https://www.linkedin.com/vivabem/">
-            <img src="./img/linkedin.png" width="50" alt="linkedin"> </a>
-          </div>
+      </main>
+      <!--rodapé-->
+      <footer>
+        <footer class="footer">
+            <div class="container">  
+              <div>
+                <a href="#" class="footerLink">Quem somos</a>
+              </div>
+              
+              <div class="redes">
+                  <section id="textoRedes"><h2>Acompanhe-nos nas redes sociais</h2></section>
+                
+                <a target="_blank"
+                href="https://www.facebook.com/vivabem/">
+                <img src="../public/img/facebook.png"  width="50" alt="facebook"> </a>
+                <a target="_blank"
+                href="https://www.instagram.com/vivabem/">
+                <img src="../public/img/instagram.png" width="50" alt="instagram"> </a>
+                <a target="_blank"
+                href="https://www.linkedin.com/vivabem/">
+                <img src="../public/img/linkedin.png" width="50" alt="linkedin"> </a>
+              </div>
 
-          <div class="contatos">
-            <p class="textoContatos" >Entre em contato conosco<p>
-            <ul>                    
-                <li>
-                    <a href="#" class="footer-link"><img src="./img/whatsapp.png" width="40" alt="whatsapp"></a>
-                    <p class="footer-link">(11) 99999-9999</p>
-                </li>
-                <li> 
-                    <a href="#" class="footer-link"><img src="./img/formato-de-envelope-preto-com-verso-fechado.png" width="40" alt="e-mail"></a>  
-                    <p class="footer-link">contato@vivabem.com.br</p>  
-                </li>
-            </ul>
-    
-          </div>
-        </div>
+              <div class="contatos">
+                <p class="textoContatos" >Entre em contato conosco<p>
+                <ul>                    
+                    <li>
+                        <a href="#" class="footer-link"><img src="../public/img/whatsapp.png" width="40" alt="whatsapp"></a>
+                        <p class="footer-link">(11) 99999-9999</p>
+                    </li>
+                    <li> 
+                        <a href="#" class="footer-link"><img src="../public/img/formato-de-envelope-preto-com-verso-fechado.png" width="40" alt="e-mail"></a>  
+                        <p class="footer-link">contato@vivabem.com.br</p>  
+                    </li>
+                </ul>
+        
+              </div>
+            </div>
+          </footer>
       </footer>
-  </footer>
 </body>
 </html>
