@@ -30,7 +30,7 @@ body {
     margin: 0 auto;
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     columns: 6;
     color: black;
   }
@@ -75,9 +75,21 @@ body {
         font-size: 5mm;
     }
 
-    .produtos {
-      display: block;
+    
+    .row {    
+      display: flex;  
+      flex-direction: row;
+      float: right;   
+      justify-content: space-evenly;
+      border-bottom: 2px solid gray;   
     }
+
+    .row2 {    
+      display: inline-flex;  
+      flex-direction: row;
+      float: right;  
+      text-align: left;
+      }
 
     .produtoReceita {
       display: inline-flex;
@@ -120,7 +132,7 @@ body {
     font-size: 5mm;
   }
 
-  button {
+  .adicionar {
       background-color: #24D66B;
       width: 60%;
       height: 80px;
@@ -129,11 +141,77 @@ body {
       font-size: 26px;
       margin-top: 100px;
       margin-bottom: 140px;
+      border-radius: 15px;    
   }
 
    h2 {
     font-size: xx-large;  
   }
+
+   .itemProdutoCarrinho {
+    display: inline-flex;
+  }
+
+  .infoItemProdutoCarrinho span {
+    display: block;
+  }    
+
+  .infoItemProdutoCarrinho {
+    font-size: 6mm;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+  }
+
+  .imgItemProdutoCarrinho {
+    font-size: 6mm;
+    font-weight: bold;
+    text-decoration: 5none;
+    color: black;
+  }
+
+  .col-6 {
+    padding-right: 90px;
+  }
+
+  .col-3 {
+    padding-left: 80px;
+  }
+
+  .valor {
+    background: white;
+    border-radius: 15px;    
+  }
+
+  .subtotal {
+    padding-left: 70px;
+  }
+
+  #subtotalTitulo {
+    text-align: left;
+  }
+
+  .valorTotalCarrinho {
+    font-size: 6mm;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    }
+
+    .continuar {
+      background-color: #24D66B;
+      width: 100%;
+      height: 40px;
+      border: none;
+      font-family: "Amatic SC", cursiva;
+      font-size: 26px;
+      margin-top: 20px;
+      margin-bottom: px;
+      border-radius: 15px;    
+  }
+
+
   nav {
     margin-right:20px;
   }
@@ -166,16 +244,25 @@ body {
   .footerLink {
       font-size: 6mm;
       font-weight: bold;
-      display: inline;
+      display: inline;      
+  }
+
+  .footer-link {
+    margin-left: 10px;
+    vertical-align: middle;
+    font-size: 4mm;
   }
 
   
   .contatos {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    float: right;
   }
 
   .textoContatos {
+    display: inline-flex;
+    flex-direction: row;
     font-size: 6mm;
     font-weight: bold;
     color: black;
@@ -187,9 +274,10 @@ body {
 
   .redes {
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 0px;
   justify-content: center;
   align-self: center;
+
   
 }
 
@@ -199,4 +287,10 @@ body {
 }
 ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
 }
+
+li {
+  display: inline-flex;
+  }
