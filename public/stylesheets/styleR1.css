@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  flex: 1;
+}
+body {
+  font-family: "Amatic SC", cursiva;
+  margin: 0 ;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+  .Busca-texto {
+      width: 200px;
+      height: 35px;
+      float: center; 
+      background-color: #5E17EB;
+      border: 2px solid #000;
+      border-radius: 15px;
+  }
+header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+}
+main {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  columns: 6;
+  color: black;
+}
+
+.dicaTitulo {
+  font-weight: bolder;
+  font-size: 15mm;
+}
+
+.dica {
+  text-align: left;
+  font-size: 6mm;
+  font-weight: bolder;
+
+}
+
+.tituloProdutoDica {
+  font-size: 8mm;
+  font-weight: bolder;
+}
+
+.produtoDica {
+  display: inline-flex;
+  margin: 20px 10px;
+ 
+}
+
+.infoProdutoDica span {
+  display: block;
+}   
+
+.receita {
+    display: flex;
+    flex: 1;
+    columns: 2;
+   }
+   
+  .imagemReceita {
+      width: 100%;
+      
+      }
+
+  .fazerReceita{
+      font-size: 8mm;
+  }
+
+  .produtos {
+    display: block;
+  }
+
+  .produtoReceita {
+    display: inline-flex;
+  }
+
+  .infoProdutoReceita span {
+    display: block;
+  }    
+
+  .infoProdutoReceita {
+    font-size: 6mm;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+
+  .ingredientes {
+    flex: 1;
+    margin: 10px;
+  }
+
+.tituloReceita {
+  font-size: 12mm;
+  font-weight: bold;
+}
+
+.passosReceita span {
+    display: block;      
+}
+
+.passosReceita {
+    font-size: 7mm;
+    color: black;    
+}
+
+.nutricionalReceita span {
+    display: block;
+}
+
+.nutricionalReceita {
+  font-size: 7mm;
+}
+
+button {
+    background-color: #24D66B;
+    width: 60%;
+    height: 80px;
+    border: none;
+    font-family: "Amatic SC", cursiva;
+    font-size: 26px;
+    margin-top: 100px;
+    margin-bottom: 140px;
+}
+
+ h2 {
+  font-size: xx-large;  
+}
+nav {
+  margin-right:20px;
+}
+.nav-link {
+  font-weight: bold;
+  font-size: 8mm;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 16px;
+}
+.footer {
+  background-color: #FFB03A;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px 30px;
+  margin-top: 15px;
+  }
+
+.footer a {
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+} 
+
+.footerLink {
+    font-size: 6mm;
+    font-weight: bold;
+    display: inline;
+}
+
+
+.contatos {
+  display: flex;
+  flex-direction: column;
+}
+
+.textoContatos {
+  font-size: 6mm;
+  font-weight: bold;
+  color: black;
+}
+
+.infoContatos {
+  display: inline-block;
+}
+
+.redes {
+display: inline-block;
+margin: 0 20px;
+justify-content: center;
+align-self: center;
+
+}
+
+.icones {
+display: inline-block;
+margin: 0 50px;
+}
+ul {
+list-style-type: none;
+}

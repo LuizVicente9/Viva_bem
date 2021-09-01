@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+ }
+
+body {
+    
+    font-family: "Amatic SC", cursiva;
+    margin: 500;
+ }
+ 
+ header {
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+ }
+ h1{
+    text-align: center;
+    margin: 1%;
+    font-size: 400%;
+ }
+ #p1 {
+    margin-top: 2%;
+    margin-bottom: 0%;
+    margin-left: 14%;
+    margin-right: 14%;
+    text-align: center;
+    font-size: x-large;
+ }
+ #p2 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 14%;
+    margin-right: 14%;
+    text-align: center;
+    font-size: x-large;
+ }
+ #p3 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 14%;
+    margin-right: 14%;
+    text-align: center;
+    font-size: x-large;
+ }
+ #p4 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 14%;
+    margin-right: 14%;
+    text-align: center;
+    font-size: x-large;
+ }
+ #imgU{
+    display: block; 
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 29%;
+ }
+ 
+ main {
+ width: 800px;
+ margin: 24 auto;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ columns: 9;
+ color: black;
+  }
+  .footer {
+    background-color: #FFB03A;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px 30px;
+    margin-top: 15px;
+    }
+  
+  .footer a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+  }
+  
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+  } 
+
+  .footerLink {
+      font-size: 6mm;
+      font-weight: bold;
+      display: inline;
+  }
+
+  
+  .contatos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textoContatos {
+    font-size: 6mm;
+    font-weight: bold;
+    color: black;
+  }
+
+  .infoContatos {
+    display: inline-block;
+  }
+
+  .redes {
+  display: inline-block;
+  margin: 0 20px;
+  justify-content: center;
+  align-self: center;
+  
+ }
+
+.icones {
+  display: inline-block;
+  margin: 0 50px;
+ }
+ ul {
+  list-style-type: none;
+}

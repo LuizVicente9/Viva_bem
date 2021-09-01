@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+
+  }
+body {
+    font-family: "Amatic SC", cursiva;
+    margin: 0 ;
+  }
+  .container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+
+  }
+    .Busca-texto {
+        width: 200px;
+        height: 35px;
+        float: center; 
+        background-position: left;
+        background-repeat: no-repeat; 
+        background-color: #5E17EB;
+        border: 2px solid #000;
+        border-radius: 15px;
+        text-indent:25px;
+    }
+  header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+  }
+  main {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    columns: 6;
+    color: black;
+  }
+
+.barracategoria {
+    padding: 10px 200px;
+    margin: 50px 200px 50px 200px;
+    text-align: center;
+    background-color: #712A7A;
+    color: #fff;
+}
+
+.produtos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+ .item {
+margin-bottom: 20px;
+width:auto;
+margin: 50px;
+ }
+
+ .item p {
+    background-color: #712A7A;
+    color:#fff;
+    padding: 5px 10px;
+ }
+
+ .item p:hover {
+ transform: rotate(-5deg);
+ }
+
+  .Receita-da-nutri {
+    margin: 0 auto;
+    width: auto;
+  }
+  h2 {
+    font-size: xx-large;  
+  }
+  nav {
+    margin-right:20px;
+  }
+  .nav-link {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 16px;
+    font-size: 8mm
+  }
+  .footer {
+    background-color: #FFB03A;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px 30px;
+    min-width: 500px;
+    max-width: 1480px;
+  }
+  
+  .footer a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+  }
+  
+  .footer .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    justify-items: center;
+    flex-wrap: wrap;
+
+  }
+
+  .footerLink {
+    font-size: 6mm;
+    font-weight: bold;
+    display: inline;
+}
+  
+  .footer .container div:first-of-type {
+    width: 30%;
+  }
+
+  .redes ul li {
+    margin-left: 20px;
+    display: inline-block;
+  }
+  
+  
+
+  .contatos {
+    display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  }
+  .redes {
+    display: inline-block;
+  margin: 0 20px;
+
+}
+
+.icones {
+  display: inline-block;
+  margin: 0 50px;
+}
+ul {
+  list-style-type: none;
+}
+
+.receita {
+  columns: 2;
+ }
+ 
+.imgReceita {
+    width: 60%;
+    height: 80%;
+    }
+    
+.imgReceita2 {
+  display: block;
+  
+}    
+
+.nomeReceita span {
+  display: block;      
+}
+
+.nomeReceita {
+  font-size: 6mm;
+  color: black;    
+}
+
+.categorias ul li {
+  background-color:#5E17EB;
+  color:#fff;
+  float: left;
+  width: 420px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  position: relative;
+  }
+
+  .categorias ul li:hover {
+  background-color:#0c0220fa;
+ 
+  }
+
+  .categorias ul{
+    padding: 0px;
+  }
+  
+  .categorias ul ul{
+    display: none;
+  }
+
+  .categorias ul li:hover > ul {
+    display:block;
+  }
+
+  .categorias ul ul ul {
+    margin-left: 202px;
+    top:0px;
+    position: absolute;
+  }
+
+  .categorias ul ul li:hover {
+  background-color:#38285cfa;
+  
+  }
+
+.span {
+  font-size: 12mm;
+  font-weight: bold;
+}
+.assinatura {
+  margin: 10px;
+}
+
+.assinatura2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.tituloassinatura {
+font-size: 12mm;
+font-weight: bold;
+}
+
+.boxviva {
+  font-size: 12mm;
+  color: black;
+  font-weight: bold; 
+  margin: 10px   
+}
+.barra2 {
+  padding: 10px 10px;
+  text-align: center;
+  background-color: #712A7A;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+.container2 {
+  display: flex; 
+  flex-wrap: wrap;
+  width: 350px;
+  flex-direction: row;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.botaodeassinatura {
+  width: 30%;
+  font-family: "Amatic SC", cursiva;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin:auto;
+}
+
+.botaodeassinatura p {
+  background-color: #3c0044;
+    color:#fff;
+    padding: 5px 10px;
+}
+
+   .botaodeassinatura p:hover {
+      transform: rotate(-5deg);
+      }
