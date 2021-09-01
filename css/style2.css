@@ -73,6 +73,7 @@ body {
 
     .fazerReceita{
         font-size: 5mm;
+        
     }
 
     .produtos {
@@ -81,6 +82,7 @@ body {
 
     .produtoReceita {
       display: inline-flex;
+      margin: 20px 0;
     }
 
     .infoProdutoReceita span {
