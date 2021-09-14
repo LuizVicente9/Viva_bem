@@ -10,4 +10,6 @@ router.get('/quemSomos',function(req, res, next) {
   res.render('quemSomos');
 })
 
+
+
 module.exports = router;
