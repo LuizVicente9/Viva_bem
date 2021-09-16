@@ -2,11 +2,11 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', function(req, res, next) {
-  res.render('dica1', { title: 'Express' });
+  res.render('dica3', { title: 'Express' });
 });
 
-router.get('dica1' , function (req, res, next){
-    res.render('dica1')
+router.get('dica3' , function (req, res, next){
+    res.render('dica3')
 })
 
 

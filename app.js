@@ -10,8 +10,13 @@ var receitasRouter = require('./routes/receitas');
 var receitas1Router = require('./routes/receitas1');
 var receitas2Router = require('./routes/receitas2');
 var receitas3Router = require('./routes/receitas3');
-var receitas4Router = require('./routes/receitas4')
-
+var receitas4Router = require('./routes/receitas4');
+var assinaturaRouter = require('./routes/assinatura');
+var buscaProdutosRouter = require('./routes/buscaProdutos');
+var carrinhoRouter = require('./routes/carrinho');
+var dica3Router = require('./routes/dica3');
+var dica2Router = require('./routes/dica2');
+var dicaNutriRouter = require('./routes/dicaNutri');
 var app = express();
 
 // view engine setup
@@ -32,7 +37,12 @@ app.use('/receitas1', receitas1Router);
 app.use('/receitas2', receitas2Router);
 app.use('/receitas3', receitas3Router);
 app.use('/receitas4', receitas4Router);
-
+app.use('/assinatura', assinaturaRouter);
+app.use('/buscaProdutos', buscaProdutosRouter);
+app.use('/carrinho', carrinhoRouter);
+app.use('/dica3', dica3Router);
+app.use('/dica2', dica2Router);
+app.use('/dicaNutri', dicaNutriRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
