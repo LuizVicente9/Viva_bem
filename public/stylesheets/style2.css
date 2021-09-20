@@ -35,6 +35,13 @@ body {
     color: black;
   }
 
+  .login {
+    display: flexbox;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+  }
+
   .dicaTitulo {
     font-weight: bolder;
     font-size: 15mm;
@@ -172,13 +179,14 @@ body {
     text-decoration: 5none;
     color: black;
   }
-
+  
   .col-6 {
     padding-right: 90px;
   }
 
   .col-3 {
     padding-left: 80px;
+    align-items: baseline;
   }
 
   .valor {
@@ -213,6 +221,23 @@ body {
       border-radius: 15px;    
   }
 
+  .infoEnderecoEntrega span {
+    display: block;
+  }    
+
+  .infoEnderecoEntrega {
+    font-size: 6mm;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+  }
+
+  .finalizarCompra {    
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   }
 
   nav {
     margin-right:20px;
