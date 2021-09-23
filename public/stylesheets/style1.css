@@ -172,7 +172,7 @@ ul {
 .categorias ul li {
   background-color:#5E17EB;
   color:#fff;
-  float: left;
+  float: none;
   width: 420px;
   height: 40px;
   display: inline-block;

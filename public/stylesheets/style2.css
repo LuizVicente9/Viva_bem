@@ -226,32 +226,33 @@ body {
     text-transform: uppercase;
     padding-left: 16px;
   }
-  .footer {
+.footer {
     background-color: #FFB03A;
     color: rgb(0, 0, 0);
-    padding: 10px 20px 30px;
-    margin-top: 15px;
+    padding: 5px 10px 15px;
+    margin-top: 7px;
     }
   
-  .footer a {
+.footer a {
     color: rgb(8, 8, 8);
     text-decoration: none;
   }
   
   .footer .container {
-    display: flex;
+    display: flexbox;
     justify-content: space-between;
   } 
 
-  .footerLink {
+.footerLink {
       font-size: 6mm;
       font-weight: bold;
       display: inline;      
   }
 
-  .footer-link {
+.footer-link {
+  align-items: flex-end;
     margin-left: 10px;
-    vertical-align: middle;
+    margin-bottom: 1px;
     font-size: 4mm;
   }
 
