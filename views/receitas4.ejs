@@ -5,26 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/stylesheets/style2.css">
-    <link rel="footer" href="./partials/footer.ejs">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     <title>Viva Bem</title>
 </head>
 <body>
-    <header class="container">
-
-        <img src="/img/logo-viva-bem.jpeg" width="120" alt="Logo">
-
-        <form action="">
-                <input class="Busca-texto" type="text">
-            </form>
-        <nav>
-          <a class="nav-link" href="">Login</a>
-        </nav>
-        <a href="./Carrinho.html">
-        <img src="/img/vista-lateral-vazia-do-carrinho-de-compras.png" width="40" alt="Carrinho"></a>
-      </header>  
+  <%- include('./partials/header'); %>  
       <main>
           <section class="receita">
           <div>
@@ -79,10 +66,8 @@
         </section>
           
       </main>
-      <footer>
-        
-       <% -include('../partials/footer'); %>
+      
+       <%- include('./partials/footer'); %>
 
-      </footer>
 </body>
 </html>
