@@ -24,28 +24,51 @@
       </header>  
 
       <main>
-          <h1>FINALIZAR COMPRA</h1>
+          <h1>Cadastro</h1>
           <div class="finalizarCompra">
+
+            <section class="cadastroUsuario">
+              <h2>Dados do Usuário</h2>
+              <form action="">
+                <label for="nome"> Nome</label>
+                        <input type="text" size="76%"> 
+                        <label for="cpf">CPF</label>
+                        <input type="text">
+                        <br>
+                        <label for="email">E-mail</label>
+                          <input type="email" size="40%">
+                        <label for="celular">Telefone</label>
+                          <input type="tel" size="17%">
+                          <label for="dataNascimento">Data de Nascimento</label>
+                        <input type="date">
+                          <br>
+                        <label for="senha">Crie uma senha</label>
+                          <input type="password" size="40%">
+                          <label for="senha">Confirme a senha</label>
+                          <input type="password" size="40%">
+              </form>
+                  <hr>
+            </section>
                                                 
                     <section class="endereco">
                       <h2>Endereço</h2>
                       <form action="">
                         <label for="destinatario"> Destinatário</label>
-                        <input type="text" size="72%"> 
+                        <input type="text" size="50%"> 
                         <label for="cep">CEP</label>
                         <input type="text">
                         <br>
                         <label for="logradouro">Logradouro</label>
-                          <input type="text" size="55%">
+                          <input type="text" size="50%">
                         <label for="numero">Número</label>
-                          <input type="text" size="4%">
+                          <input type="text" size="2%">
                         <label for="complemento">Complemento</label>
-                          <input type="text" size="15%">
+                          <input type="text" size="8%">
                         <br>
                         <label for="bairro">Bairro</label>
-                          <input type="text" size="35%">
+                          <input type="text">
                         <label for="cidade">Cidade</label>
-                          <input type="text" size="38%">
+                          <input type="text">
                         <label for="estado">Estado</label>
                           <select name="estado" id="estado">
                             <option value="null"> </option>
@@ -85,47 +108,8 @@
                       </form>
                       <hr>
                     </section>
-
-                    <section class="frete">
-                      <h2>Frete</h2>
-                      <form action="">
-                        <label for="">Espresso</label>
-                          <input type="radio" name="frete" id="espresso">
-                        <label for="">Normal</label>
-                          <input type="radio" name="frete" id="normal">
-                          <br>
-                        <label for="valor-frete">Valor</label>
-                          <input type="text-area">
-                      </form>
-                          <hr>
-                    </section>
-
-                    <section class="pagamento">
-                      <h2>Pagamento</h2>
-                      <form action="">
-                        <label for="boleto">Boleto</label>
-                          <input type="radio" name="pagamento" id="boleto">
-                        <label for="cartão">Cartão</label>
-                          <input type="radio" name="pagamento" id="cartao">
-                          <br>
-                        <label for="">Número</label> 
-                          <input type="text" name="numero-cartao" id="" size="62%">
-                        <label for="">Código de Segurança</label> 
-                          <input type="text" name="validade-cartao" id="" size="21%">
-                        <br>
-                        <label for="">Nome do titular</label> 
-                          <input type="text" name="nome-titular" id="" size="66%">
-                        <label for="">Validade</label> 
-                          <input type="text" name="cvv" id="">                          
-                      </form>
-                      <hr>
-                    </section>
-
-                    <section class="total">
-                      <h2>Total</h2>
-                      <output>Valor Total</output>                      
-                    </section>
-               <button type="submit" class="continuar">Finalizar</button>
+                    
+               <button type="submit" class="continuar">Enviar cadastro</button>
           </div>       
                   
           
