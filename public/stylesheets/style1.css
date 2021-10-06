@@ -39,6 +39,49 @@ body {
     color: black;
   }
 
+  #textoHome {
+    width: auto;
+    
+    background-color: #aaa;
+    font-weight: bolder;
+    display: flex;
+    float: left;
+  }
+
+  .textoHome {
+    margin: 0 12%;
+    align-self: center;
+    font-size: 120%;
+    padding: 1% 5%;
+  }
+
+  #buscaHome {
+    margin: 0 6%;
+    text-align: center;
+  }
+
+  .buscaHome {
+    margin: 1% 15%;
+    padding: 1% 0 3% 3%;
+    height: 38px;
+    width: 20%;
+    background-color: #FFBF5D;
+    font-weight: bolder;
+    display: flex;
+    float: left;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 120%;
+  }
+
+  .dropboxHome {
+    background-color: #FFBF5D;
+    border-color: #FFBF5D;
+    font-family: "Amatic SC", cursiva;
+    font-size: 90%;
+    vertical-align:top;
+  }
+
 #barraCategoria {
    height:10%;
 }
