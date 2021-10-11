@@ -1,8 +1,15 @@
 var express = require('express');
 var router = express.Router();
-const UserController = require('../controllers/UserController')
 
-/* GET users listing. */
-router.get('/', UserController.index);
+/* GET home page. */
+router.get('/', function(req, res, next) {
+  res.render('user', { title: 'Express' });
+});
+
+router.get('/user',function(req, res, next) {
+  res.render('user');
+})
+
+
 
 module.exports = router;

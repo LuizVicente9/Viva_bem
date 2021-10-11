@@ -7,7 +7,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var login = require('./routes/login');
 var finalizarRouter = require('./routes/finalizar');
-var usersRouter = require('./routes/users');
+//var usersRouter = require('./routes/users');
 var receitasRouter = require('./routes/receitas');
 var receitas1Router = require('./routes/receitas1');
 var receitas2Router = require('./routes/receitas2');
@@ -19,6 +19,7 @@ var carrinhoRouter = require('./routes/carrinho');
 var dica3Router = require('./routes/dica3');
 var dica2Router = require('./routes/dica2');
 var dicaNutriRouter = require('./routes/dicaNutri');
+var UserController = require('./routes/users');
 var app = express();
 
 // view engine setup
@@ -35,7 +36,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/login', login);
 app.use('/finalizar', finalizarRouter);
-app.use('/users', usersRouter);
+app.use('/users', UserController);
 app.use('/receitas', receitasRouter);
 app.use('/receitas1', receitas1Router);
 app.use('/receitas2', receitas2Router);
