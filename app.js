@@ -20,6 +20,7 @@ var dica3Router = require('./routes/dica3');
 var dica2Router = require('./routes/dica2');
 var dicaNutriRouter = require('./routes/dicaNutri');
 var UserController = require('./routes/users');
+var homeRouter = require('./routes/home')
 var app = express();
 
 // view engine setup
@@ -48,6 +49,7 @@ app.use('/carrinho', carrinhoRouter);
 app.use('/dica3', dica3Router);
 app.use('/dica2', dica2Router);
 app.use('/dicaNutri', dicaNutriRouter);
+app.use('/home', homeRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
