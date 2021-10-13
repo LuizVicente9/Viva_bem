@@ -8,7 +8,6 @@ body {
   }
   .container {
     max-width: 1480px;
-    width: 100%;
     margin: 0 auto;    
   }
 
@@ -29,18 +28,32 @@ body {
         align-items: center;
         padding: 10px 20px;
   }
+
+  .logo {
+    display: flex;
+    max-width: 120px;
+    justify-content: left;
+  }
+
   main {
+    max-width: 1480px;
     width: auto;
-    margin: 0 auto;
+    //margin: 0 auto;
     text-align: center;
     display: flex;
-    flex-direction: column;
-    columns: 6;
+    //flex-direction: column;
+    //columns: 6;
     color: black;
+    box-sizing: border-box;
   }
 
   #bannerHome {
     max-width: 1350px;
+    width: 100%;
+  }
+
+  .imagemHome {
+    max-width: 1480px;
     width: 100%;
   }
 
@@ -316,8 +329,17 @@ font-weight: bold;
   font-size: 12mm;
   color: black;
   font-weight: bold; 
-  margin: 10px   
+  margin: 10px 0; 
 }
+
+.box {
+  box-sizing: border-box;
+  display: flex;
+  align-self: center;
+  max-height: 250px;
+  max-width: 1480px;
+}
+
 .barra2 {
   padding: 10px 10px;
   text-align: center;
@@ -336,7 +358,7 @@ font-weight: bold;
   flex-wrap: wrap;
   width: 350px;
   flex-direction: row;
-  max-width: 1280px;
+  max-width: 1680px;
   margin: 0 auto;
 }
 
@@ -358,3 +380,26 @@ font-weight: bold;
    .botaodeassinatura p:hover {
       transform: rotate(-5deg);
       }
+
+
+      
+      @media (max-width: 768px)
+      {
+        .container {
+          max-width: 720px;
+        }
+
+        .footer {
+          max-width: 720px;
+          margin: 0;
+        }
+
+         .bannerHome {
+          max-width: 720px;
+        }
+
+        .textoHome {
+          max-width: 720px;
+        }
+      }
+  
