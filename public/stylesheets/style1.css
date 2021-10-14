@@ -38,11 +38,11 @@ body {
   main {
     max-width: 1480px;
     width: auto;
-    //margin: 0 auto;
+    margin: 0 auto;
     text-align: center;
     display: flex;
-    //flex-direction: column;
-    //columns: 6;
+    flex-direction: column;
+    columns: 6;
     color: black;
     box-sizing: border-box;
   }
