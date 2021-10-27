@@ -20,21 +20,22 @@ module.exports = {
         allowNull: false
       },
       valor: {
-        type: Sequelize.NUMBER,
+        type: Sequelize.STRING,
         allowNull: false
       },
       parcelamentos: {
-        type: Sequelize.NUMBER,
-        allowNull: true
-      },
-      parcelas: {
-        type: Sequelize.NUMBER,
-        allowNull: true
-      },
-      status: {
         type: Sequelize.STRING,
         allowNull: true
       },
+      parcelas: {
+        type: Sequelize.STRING,
+        allowNull: true
+      },
+      data: {
+        type: Sequelize.STRING,
+        allowNull: true
+      },
+
       created_at: {
         type: 'TIMESTAMP',
         defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
@@ -43,11 +44,11 @@ module.exports = {
     });
   },
   //down: async (queryInterface, Sequelize) => {
-    /**
-     * Add reverting commands here.
-     *
-     * Example:
-     * await queryInterface.dropTable('users');
-     */
+  /**
+   * Add reverting commands here.
+   *
+   * Example:
+   * await queryInterface.dropTable('users');
+   */
   //}
 };
