@@ -22,18 +22,18 @@ module.exports = {
       allowNull: false
      },
      data_nascimento: {
-      type: Sequelize.DATETIME,
+      type: Sequelize.STRING,
       allowNull: false
     },
     foto: {
       type: Sequelize.STRING,
-      allowNull: true
+      allowNull: false
      },
      created_at: {
       type: 'TIMESTAMP',
       defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
       allowNull: false
-    }
+      }
      });    
   },
 

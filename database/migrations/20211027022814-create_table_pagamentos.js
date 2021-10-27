@@ -2,10 +2,10 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('pagamentos', { 
+    await queryInterface.createTable('pagamentos', {
       id: {
         primaryKey: true,
-        type: Sequelize.INTEGER.UNSIGNED, 
+        type: Sequelize.INTEGER.UNSIGNED,
         allowNull: false,
         autoIncrement: true
       },
@@ -13,7 +13,7 @@ module.exports = {
         foreignKey: true,
         type: Sequelize.INTEGER,
         allowNull: false
-      }, 
+      },
       metodos_pagamentos_id: {
         foreignKey: true,
         type: Sequelize.INTEGER,
@@ -23,9 +23,9 @@ module.exports = {
         type: Sequelize.NUMBER,
         allowNull: false
       },
-      parcelamento: {
-        type: Sequelize.STRING,
-        allowNull: false
+      parcelamentos: {
+        type: Sequelize.NUMBER,
+        allowNull: true
       },
       parcelas: {
         type: Sequelize.NUMBER,
@@ -33,7 +33,7 @@ module.exports = {
       },
       status: {
         type: Sequelize.STRING,
-        allowNull: false
+        allowNull: true
       },
       created_at: {
         type: 'TIMESTAMP',
@@ -41,9 +41,7 @@ module.exports = {
         allowNull: false
       }
     });
-    
   },
-
   //down: async (queryInterface, Sequelize) => {
     /**
      * Add reverting commands here.
