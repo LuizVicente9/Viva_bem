@@ -1,7 +1,7 @@
 const config = {
     username: 'root',
     password: '',
-    database: 'vivabem',
+    database: 'viva_bem',
     host: 'localhost',
     dialect: 'mysql',
     //port: 813

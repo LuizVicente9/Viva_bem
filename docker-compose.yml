@@ -1,0 +1,19 @@
+version: '3.6'
+
+services:
+  database:
+    container_name: viva-bem-database
+    image: mysql:5.7
+    restart: unless-stopped
+    tty: true
+    privileged: true
+    ports:
+      - 3306:3306
+    volumes:
+      - viva-bem-data:/var/lib/mysql
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 1
+      MYSQL_DATABASE: vivabem
+
+volumes:
+  viva-bem-data:
