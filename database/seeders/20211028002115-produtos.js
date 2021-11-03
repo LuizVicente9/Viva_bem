@@ -2,23 +2,15 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    /**
-     * Add seed commands here.
-     *
-     * Example:
-     * await queryInterface.bulkInsert('People', [{
-     *   name: 'John Doe',
-     *   isBetaMember: false
-     * }], {});
-    */
-  },
+      await queryInterface.bulkInsert('Produtos', [{
+      nome_produro: 'Vitamina C',
+      preco: '49,90', 
+      descricao: 'Antioxidante Natural com 60 capsulas', 
+      imagem: 'https://ibb.co/YLDK5fT', 
+      }], {});
+   },
 
   down: async (queryInterface, Sequelize) => {
-    /**
-     * Add commands to revert seed here.
-     *
-     * Example:
-     * await queryInterface.bulkDelete('People', null, {});
-     */
-  }
+      await queryInterface.bulkDelete('Produtos', null, {});
+    }
 };
