@@ -243,6 +243,50 @@ body {
    text-align: left;
    }
 
+   .informacoesProduto {
+    margin: 10px;
+  }
+
+  .nomeProduto {
+  font-size: 12mm;
+  font-weight: bold;
+}
+
+  .descricaoProduto span {
+    display: block;      
+}
+
+  .descricaoProduto {
+    font-size: 7mm;
+    color: black;  
+    font-weight: bold;  
+}
+
+  .quantidadeProduto {
+    font-size: 6mm;
+  }
+
+  .nutricionalProduto span {
+    display: block;
+}
+
+  .nutricionalProduto {
+  font-size: 5mm;
+}
+
+   .adicionarProduto {
+    background-color: #24D66B;
+    width: 90%;
+    height: 80px;
+    border: none;
+    font-family: "Amatic SC", cursiva;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px; 
+    align-self: center; 
+   }
+
   nav {
     margin-right:20px;
   }
