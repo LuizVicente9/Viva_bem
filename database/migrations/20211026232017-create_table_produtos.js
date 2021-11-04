@@ -2,14 +2,14 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('produtos', { 
+    await queryInterface.createTable('produtos', {
       id: {
         primaryKey: true,
         type: Sequelize.INTEGER.UNSIGNED,
         allowNull: false,
         autoIncrement: true
       },
-      nome_produro: {
+      nome_produto: {
         type: Sequelize.STRING,
         allowNull: false
       },
@@ -42,15 +42,10 @@ module.exports = {
       },
 
     });
-     
+
   },
 
   down: async (queryInterface, Sequelize) => {
-    /**
-     * Add reverting commands here.
-     *
-     * Example:
-     * await queryInterface.dropTable('users');
-     */
-  }
-};
+    await queryInterface.dropTable('produtos');
+
+}};
