@@ -29,11 +29,19 @@ module.exports = {
         foreignKey: true,
         type: Sequelize.INTEGER,
         allowNull: false,
+        references: {
+          model: "categorias",
+          key: "id"
+        }
       },
       pedidos_id: {
         foreignKey: true,
         type: Sequelize.INTEGER,
         allowNull: false,
+        references: {
+          model: "pedidos",
+          key: "id"
+        }
       },
       created_at: {
         type: 'TIMESTAMP',

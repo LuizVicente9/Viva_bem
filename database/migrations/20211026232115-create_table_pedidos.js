@@ -9,11 +9,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: true
       },
-      produtos_id: {
-        foreignKey: true,
-        type: Sequelize.INTEGER,
-        allowNull: false
-      },
+    
       status: {
         type: Sequelize.STRING,
         allowNull: false
