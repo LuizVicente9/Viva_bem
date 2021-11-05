@@ -287,6 +287,52 @@ body {
     align-self: center; 
    }
 
+   #quemSomos {
+     font-size: 30px;
+     text-align: center;
+   }
+
+   #p1 {
+    margin-top: 2%;
+    margin-bottom: 0%;
+    margin-left: 14%;
+    margin-right: 14%;
+    text-align: center;
+    font-size: x-large;
+ }
+ #p2 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 14%;
+    margin-right: 14%;
+    text-align: center;
+    font-size: x-large;
+ }
+ #p3 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 14%;
+    margin-right: 14%;
+    text-align: center;
+    font-size: x-large;
+ }
+ #p4 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 14%;
+    margin-right: 14%;
+    text-align: center;
+    font-size: x-large;
+ }
+ #imgU{
+    display: block; 
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 29%;
+ }
+
   nav {
     margin-right:20px;
   }

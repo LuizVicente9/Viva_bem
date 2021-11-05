@@ -12,7 +12,11 @@ module.exports = {
       produtos_id: {
         foreignKey: true,
         type: Sequelize.INTEGER,
-        allowNull: false
+        allowNull: false,
+        references: {
+          model: "produtos",
+          key: "id"
+        }
       },
       status: {
         type: Sequelize.STRING,
@@ -21,17 +25,29 @@ module.exports = {
       enderecos_id: {
         foreignKey: true,
         type: Sequelize.INTEGER,
-        allowNull: false
+        allowNull: false,
+        references: {
+          model: "enderecos",
+          key: "id"
+        }
       },
       usuarios_id: {
         foreignKey: true,
         type: Sequelize.INTEGER,
-        allowNull: false
+        allowNull: false,
+        references: {
+          model: "usuarios",
+          key: "id"
+        }
       },
       pagamentos_id: {
         foreignKey: true,
         type: Sequelize.INTEGER,
-        allowNull: false
+        allowNull: false,
+        references: {
+          model: "pagamentos",
+          key: "id"
+        }
       },
       created_at: {
         type: 'TIMESTAMP',
