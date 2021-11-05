@@ -9,6 +9,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: true
       },
+<<<<<<< HEAD
       produtos_id: {
         foreignKey: true,
         type: Sequelize.INTEGER,
@@ -18,6 +19,9 @@ module.exports = {
           key: "id"
         }
       },
+=======
+    
+>>>>>>> 4de0b8c28d196cac3bcae976cfe28bf100049bbc
       status: {
         type: Sequelize.STRING,
         allowNull: false
