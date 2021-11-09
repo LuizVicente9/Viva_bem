@@ -36,7 +36,15 @@
             <label for="senha">Corfirme o e-mail</label>
               <input type="email" name="email" id="">
               <br><br>
-            <button class="continuar" type="submit">Enviar</button>
+
+              <script>
+                function funcao3()
+                {
+                alert("E-mail de redefinição de senha enviado! Confira sua caixa de entrada.");
+                }
+              </script>
+
+            <button class="continuar" onclick="funcao3()" type="submit"><a href="/login">Enviar</a></button>
           </form>  
           <br> 
           <a href="./login">Voltar para login</a>
